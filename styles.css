@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* General Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding-top: 56px; /* Adjust to match navbar height */
+}
+
+/* Header Section */
+header {
+    background: url('collection-2018266_1920.jpg') no-repeat center center/cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 100px 0; /* Optional padding */
+}
+
+/* Section Titles */
+section h2 {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+}
+
+/* Active Navigation Link */
+.nav-item.active .nav-link {
+    color: #FFD700;
+}
+
+/* Custom Navbar Styles */
+.navbar .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar .nav-link i {
+    margin-right: 5px;
+}
+
+/* Adjust font size or color if needed */
+.navbar .nav-link {
+    font-size: 0.9rem;
+}
