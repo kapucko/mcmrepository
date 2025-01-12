@@ -26,6 +26,10 @@ header {
     /* background-color: azure; */
 }
 
+section {
+    scroll-margin-top: 60px; /* Adjust to your navbar height */
+  }
+
 /* Section Titles */
 section h2 {
     font-weight: bold;
