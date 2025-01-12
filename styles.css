@@ -10,18 +10,19 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+ 
 main {
-    flex: 1;
-    padding-top: 56px; /* Adjust to match navbar height */
+    /* font-size: 16px; */
+    /* font-weight: 600; */
 }
 
 /* Header Section */
 header {
-    background: url('collection-2018266_1920.jpg') no-repeat center center/cover;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 100px 0; /* Optional padding */
+    /* background: url('steptodown.com858957.jpg') no-repeat center center/cover; */
+    color: black;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); */
+    /* padding: 100px 0; Optional padding */
+    /* background-color: azure; */
 }
 
 /* Section Titles */
@@ -34,10 +35,15 @@ footer {
     width: 100%;
 }
 
-/* Active Navigation Link */
-.nav-item.active .nav-link {
-    color: #FFD700;
+.intro {
+    padding-right: 200px;
 }
+
+
+/* Active Navigation Link */
+/* .nav-item.active .nav-link {
+    color: #FFD700;
+} */
 
 /* Custom Navbar Styles */
 .navbar .nav-link {
@@ -51,5 +57,6 @@ footer {
 
 /* Adjust font size or color if needed */
 .navbar .nav-link {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 600;
 }
